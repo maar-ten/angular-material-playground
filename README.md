@@ -10,8 +10,12 @@ There are 3 palettes:
 - accent
 - warn (optional)
 
+## Modify styling
+- Add class `mat-app-background` to the body element to match the theme's background color
+- Change de default theme in [src/styles.scss line #23](src/styles.scss) from light to dark
+
 ## Questions
-- how to specify your own palette
-- how to style elements that aren't material components; i.e. H1 elements
-- how to modify the styling of material components
-- how to do this in a maintainable way
+- How to specify your own palette
+- How to style elements that aren't material components; i.e. H1 elements
+- How to modify the styling of material components
+- How to do this in a maintainable way
